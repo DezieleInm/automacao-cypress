@@ -5,16 +5,16 @@ describe('Cenário 1: Buscar um produto', () => {
     
     
     // Passo 2: Clicar no botão de pesquisa
-    cy.get('#mobileSearch > #menuSearch').click(); // Supondo que o botão de pesquisa tenha id="searchBtn"
+    cy.get('#mobileSearch > #menuSearch').click(); 
     
      
-   //Adionar um produto no carrinho
+   // Adionar um produto no carrinho
     cy.get('[data-ng-show="([] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude).length != 0"] > ul > :nth-child(1)').first().click();
 
-   //Clicar  no carrinho
+   // Clicar  no carrinho
    cy.get('.fixedBtn > .roboto-medium').click();
 
-   //validar produto no carrinho
+   // validar produto no carrinho
    cy.get('li > #toolTipCart > :nth-child(1) > table > tfoot > :nth-child(2) > td > #checkOutPopUp').click();
 
   });
