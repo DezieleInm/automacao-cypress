@@ -4,7 +4,7 @@ Esse Projeto contém testes automatizados do site: Advantage Online Shopping
 
 ## Clone o repositório
 
-   Primeiro, clone este repositório para a sua máquina local utilizando o comando git clone <URL-do-repositorio>
+   Primeiro, clone este repositório para a sua máquina local utilizando o comando git clone :
    
    Ex: (https://github.com/DezieleInm/automacao-cypress.git)
 
