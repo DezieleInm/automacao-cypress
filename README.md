@@ -11,8 +11,11 @@ Esse Projeto contém testes automatizados do site: Advantage Online Shopping
 ## Após clonar o repositório para sua máquina 
 
 - Entrar no diretório do projeto: cd nome-do-repositorio
-- Instalar as dependências: execute no terminal : npm install
-- Verificar a instalação do Cypress: execute no terminal: npx cypress open
+- Instalar as dependências:
+- execute no terminal : npm install
+- Verificar a instalação do Cypress:
+-  execute no terminal: npx cypress open
+
 ## Rodar os testes
 - Modo interativo (GUI): "npx cypress open"
 - Modo terminal: "npx cypress run"
