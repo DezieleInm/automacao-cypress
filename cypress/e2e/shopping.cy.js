@@ -11,7 +11,7 @@ describe('Cenário 1: Buscar um produto', () => {
    //Adionar um produto no carrinho
     cy.get('[data-ng-show="([] | productsFilterForCategoriesProduct:searchResult:minPriceToFilter:maxPriceToFilter:productsInclude).length != 0"] > ul > :nth-child(1)').first().click();
 
-   //Adionar um produto no carrinho
+   //Clicar  no carrinho
    cy.get('.fixedBtn > .roboto-medium').click();
 
    //validar produto no carrinho
