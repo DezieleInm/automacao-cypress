@@ -16,7 +16,7 @@ Antes de começar, é necessário ter instalado na sua máquina:
 
    Primeiro, clone este repositório para a sua máquina local utilizando o comando `git clone`:
 
-## Após clocar o repositório para sua máquina 
+## Após clonar o repositório para sua máquina 
 
 - Clonar o repositório: git clone <URL-do-repositorio>
 - Entrar no diretório do projeto: cd nome-do-repositorio
