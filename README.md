@@ -13,6 +13,6 @@ Esse Projeto contém testes automatizados do site: Advantage Online Shopping
 - Entrar no diretório do projeto: cd nome-do-repositorio
 - Instalar as dependências: npm install
 - Verificar a instalação do Cypress: npx cypress open
-## Rodar os testes:
+## Rodar os testes
 - Modo interativo (GUI): "npx cypress open"
 - Modo terminal: "npx cypress run"
