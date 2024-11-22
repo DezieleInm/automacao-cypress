@@ -23,5 +23,5 @@ Antes de começar, é necessário ter instalado na sua máquina:
 - Instalar as dependências: npm install
 - Verificar a instalação do Cypress: npx cypress open
 - Rodar os testes:
-- Modo interativo (GUI): npx cypress open
-- Modo terminal: npx cypress run
+- Modo interativo (GUI): "npx cypress open"
+- Modo terminal: "npx cypress run"
