@@ -15,10 +15,10 @@ Antes de começar, é necessário ter instalado na sua máquina:
 1. **Clone o repositório:**
 
    Primeiro, clone este repositório para a sua máquina local utilizando o comando git clone <URL-do-repositorio>
+   Ex: https://github.com/usuario/nome-do-repositorio.git
 
 ## Após clonar o repositório para sua máquina 
 
-- Clonar o repositório: git clone <URL-do-repositorio>
 - Entrar no diretório do projeto: cd nome-do-repositorio
 - Instalar as dependências: npm install
 - Verificar a instalação do Cypress: npx cypress open
